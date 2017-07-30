@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>My History | Hello Books</title>
+    <meta name="description" content="Hello World">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="assets/stylesheets/style.css"/>
+
+</head>
+
+<body>
+
+<header>
+    <div class="jumbotron">
+        <div class="container">
+            <h1>My Book History</h1>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <!-- Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a href="index.html" class="navbar-brand">HELLO BOOKS</a>
+            </div><!-- Navbar Header-->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="catalog.html">Catalogue</a>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">Profile <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="borrowed_books.html">Borrowed Books</a></li>
+                            <li><a href="history.html">History</a></li>
+                            <li><a href="profile.html">Account</a></li>
+                            <li class="divider"></li>
+                            <li><a href="index.html">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div><!-- End Container-->
+    </nav><!-- End navbar -->
+
+    <form class="pull-right" method="post">
+        <div class="form-group">
+            <input name="search" id="search" placeholder="Search books">
+            <button>Go</button>
+        </div>
+    </form>
+
+    <table class="table table-hover table-responsive table-bordered">
+        <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Edition</th>
+            <th>Borrow Date</th>
+            <th>Return Date</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                <a href="#">Adventurers of Adam</a>
+            </td>
+            <td>Basil Tukek</td>
+            <td>1<sup>st</sup> Edition</td>
+            <td>1<sup>st</sup> July 2017</td>
+            <td>1<sup>st</sup> June 2017</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">Basking Tales</a>
+            </td>
+            <td>Atutu Poyoyo</td>
+            <td>3<sup>rd</sup> Edition</td>
+            <td>1<sup>st</sup> August 2017</td>
+            <td>4<sup>th</sup> August 2017</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">Emotional Intelligence</a>
+            </td>
+            <td>Daniel Goleman</td>
+            <td>2<sup>nd</sup> Edition</td>
+            <td>5<sup>th</sup> September 2017</td>
+            <td>21<sup>st</sup> September 2017</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">Long Walk to Freedom</a>
+            </td>
+            <td>Nelson Mandela</td>
+            <td>5<sup>th</sup> Edition</td>
+            <td>13<sup>th</sup> July 2017</td>
+            <td>19<sup>th</sup> July 2017</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">Hell</a>
+            </td>
+            <td>Bill Wiese</td>
+            <td>1<sup>st</sup> Edition</td>
+            <td>21<sup>st</sup> July 2017</td>
+            <td>1<sup>st</sup> August 2017</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">Money Won't Make You Rich</a>
+            </td>
+            <td>Sunday Adelaja</td>
+            <td>4<sup>th</sup> Edition</td>
+            <td>18<sup>th</sup> April 2017</td>
+            <td>1<sup>st</sup> May 2017</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">Avoiding the Trap of Being Offended</a>
+            </td>
+            <td>Kenneth W. Hagin</td>
+            <td>2<sup>nd</sup> Edition</td>
+            <td>1<sup>st</sup> October 2017</td>
+            <td>1<sup>st</sup> November 2017</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">Java Program Design</a>
+            </td>
+            <td>Cohoon Dickson</td>
+            <td>5<sup>th</sup> Edition</td>
+            <td>5<sup>th</sup> December 2017</td>
+            <td>31<sup>st</sup> December 2017</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">Starbook</a>
+            </td>
+            <td>Ben Okri</td>
+            <td>1<sup>st</sup> Edition</td>
+            <td>1<sup>st</sup> August 2017</td>
+            <td>11<sup>th</sup> August 2017</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">Start-up Nation</a>
+            </td>
+            <td>Dan Senior & Saul Singer</td>
+            <td>4<sup>th</sup> Edition</td>
+            <td>3<sup>rd</sup> June 2017</td>
+            <td>1<sup>st</sup> July 2017</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <nav aria-label="Page navigation" class="pull-right">
+        <ul class="pagination">
+            <li class="disabled">
+                <a href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li>
+                <a href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+
+<footer>
+    <div class="container">
+        <hr>
+
+        <p>
+            <small><h3>© 2017 Hello Books. Enlighten You</h3></small>
+        </p>
+    </div> <!-- end container -->
+</footer>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>

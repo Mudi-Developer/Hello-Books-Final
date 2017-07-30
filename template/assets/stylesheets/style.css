@@ -1,0 +1,27 @@
+body {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.carousel-inner .item {
+    height: 400px;
+    overflow: hidden;
+}
+
+.carousel-inner .item {
+    width: 100%;
+}
+
+.jumbotron {
+    padding: 20px;
+}
+
+.author {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.cover-page {
+    width: 50%;
+}
